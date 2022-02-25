@@ -1,0 +1,27 @@
+n= int(input("enter value:"))
+I=[]
+for i in range(n):
+  s=int(input()) 
+  I.append(s)
+print(I)
+e=[]
+0=[]
+for i in range(len(I)):
+  if I[i]%2==1:
+   o.append(l[i])
+  else:
+   e.append(I[i])
+print(o)
+print(e)
+
+OUTPUT:
+enter value:
+5
+10
+19
+18
+34
+27
+[10, 19, 18, 34, 27]
+[19,27]
+[10, 18, 34]
